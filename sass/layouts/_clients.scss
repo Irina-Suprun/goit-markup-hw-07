@@ -1,0 +1,35 @@
+/* Постійні клієнти */
+.our-clients__title {
+    margin-bottom: 50px;
+    color: var(--title-text-color);
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.our-clients__list {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.client__link {
+    transition-property: border, color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    width: 170px;
+    height: 92px;
+    border: 1px solid var(--grey);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--grey);
+    &:hover,
+        &:focus {
+            border: 1px solid var(--accent-color);
+            color: var(--accent-color);
+        }
+}
+.client__logo {
+    fill: currentColor;
+}
