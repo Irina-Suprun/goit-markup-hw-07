@@ -128,7 +128,6 @@ body {
   color: var(--accent-color);
 }
 .logo--inverse {
-  margin-bottom: 20px;
   display: block;
   color: var(--primary-white-color);
   font-family: "Raleway", sans-serif;
